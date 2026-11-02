@@ -156,3 +156,60 @@
 {"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "rec", "ticker": "NVDA", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
 {"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "opened", "ticker": "KO"}
 {"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "trade", "ticker": "KO", "side": "Buy", "qty": 1.0, "price": 92.49, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "tp", "ticker": "PYPL", "old": 84.5, "new": 62.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "FRHC", "old": "", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "IBIT", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "MCHP", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "SPCX", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "WMT", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "PSIX", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "UAE", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "VTWO", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "XLG", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "IAU", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "opened", "ticker": "XBI"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "opened", "ticker": "MRVL"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "closed", "ticker": "TTD"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "closed", "ticker": "PFE"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "XBI", "side": "Buy", "qty": 2.0, "price": 158.52, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "MRVL", "side": "Buy", "qty": 1.0, "price": 223.05, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "TTD", "side": "Sell", "qty": 2.0, "price": 12.86, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "PYPL", "side": "Sell", "qty": 2.0, "price": 57.53, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "PFE", "side": "Sell", "qty": 9.0, "price": 29.75, "date": "2029-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "AGD", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "AOD", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "IGR", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "EMD", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "GPIQ", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "IWMI", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "BDJ", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "THQ", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "JEPQ", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "BXSL", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "OMF", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "opened", "ticker": "FFSPC"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "FFSPC", "side": "Buy", "qty": 1.0, "price": 100.92, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "sl", "ticker": "MSFT", "old": null, "new": 514.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "tp", "ticker": "MSFT", "old": null, "new": 580.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "sl", "ticker": "CCL", "old": null, "new": 27.5}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "tp", "ticker": "CCL", "old": null, "new": 31.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "sl", "ticker": "V", "old": null, "new": 390.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "tp", "ticker": "V", "old": null, "new": 440.0}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "MOO", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "RAAX", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "NOW", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "opened", "ticker": "GEV"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "opened", "ticker": "AMAT"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "closed", "ticker": "LLY"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "closed", "ticker": "ZS"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "GEV", "side": "Buy", "qty": 1.0, "price": 901.74, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "AMAT", "side": "Buy", "qty": 1.0, "price": 425.51, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "LLY", "side": "Sell", "qty": 1.0, "price": 1400.15, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "ZS", "side": "Sell", "qty": 1.0, "price": 229.88, "date": "2026-11-02", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "GLD", "side": "Buy", "qty": 1.0, "price": 367.7, "date": "2026-10-29", "sl": null, "tp": null}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "PHO", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "UAE", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "AIQ", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Исламский", "kind": "rec", "ticker": "MCHP", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Исламский", "kind": "opened", "ticker": "INTC"}
+{"ts": "2026-11-02T20:20:55", "portfolio": "Исламский", "kind": "trade", "ticker": "INTC", "side": "Buy", "qty": 1.0, "price": 92.3, "date": "2026-10-29", "sl": null, "tp": null}

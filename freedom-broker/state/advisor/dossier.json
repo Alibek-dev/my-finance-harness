@@ -1,0 +1,1778 @@
+{
+ "as_of": "2026-11-02T20:28:46",
+ "built": "2026-11-02T20:28:52",
+ "source": "online",
+ "api_error": null,
+ "fx_note": null,
+ "mentors_snapshot": "2026-11-02T20:20:55",
+ "totals_usd": {
+  "net_assets": 6748.35,
+  "positions": 6746.47,
+  "cash": 1.88,
+  "unrealized_pl": -1169.84,
+  "cost_basis": 7916.31,
+  "unrealized_pl_pct": -14.78
+ },
+ "rules": {
+  "max_position_pct": 5.0,
+  "review_loss_pct": 30.0,
+  "small_position_pct": 1.0,
+  "max_group_pct": 10.0,
+  "targets": {
+   "stock": 40.0,
+   "index": 30.0,
+   "hedge": 30.0
+  }
+ },
+ "summary": {
+  "positions": 41,
+  "effective_positions": 30.0,
+  "small": [
+   "VNRX.US",
+   "REMX.US",
+   "MCHI.US",
+   "CLSGB13.KZ",
+   "MFRFB16.KZ"
+  ],
+  "deep_loss": [
+   "DUOL.US",
+   "ORCL.US",
+   "PALL.US",
+   "KWEB.US",
+   "MP.US",
+   "NFLX/10.ITS",
+   "PDD.US",
+   "PSIX.US",
+   "EXK.US",
+   "VNRX.US",
+   "REMX.US"
+  ],
+  "over_limit": [
+   "RACE.US",
+   "HSBK.KZ",
+   "GLD.US"
+  ],
+  "no_mentor": [
+   "HSBK.KZ",
+   "NFLX/10.ITS",
+   "VNRX.US",
+   "AIRA.KZ",
+   "KSPI.KZ",
+   "COPX.US",
+   "KEGC.KZ"
+  ],
+  "loss_total_usd": -1337.17,
+  "top5_losers_share_pct": 43.38,
+  "structure": {
+   "hedge": {
+    "usd": 1290.86,
+    "pct": 19.13,
+    "target_pct": 30.0,
+    "gap_usd": 733.65
+   },
+   "index": {
+    "usd": 2071.04,
+    "pct": 30.69,
+    "target_pct": 30.0,
+    "gap_usd": -46.53
+   },
+   "stock": {
+    "usd": 2722.84,
+    "pct": 40.35,
+    "target_pct": 40.0,
+    "gap_usd": -23.5
+   },
+   "unclassified": {
+    "usd": 661.73,
+    "pct": 9.81,
+    "target_pct": null,
+    "gap_usd": null
+   }
+  },
+  "themes": {
+   "золото": {
+    "usd": 648.34,
+    "pct": 9.61
+   },
+   "Китай": {
+    "usd": 648.98,
+    "pct": 9.62
+   },
+   "здравоохранение": {
+    "usd": 410.33,
+    "pct": 6.08
+   }
+  }
+ },
+ "positions": [
+  {
+   "ticker": "DUOL.US",
+   "name": "Duolingo Inc",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 131.34,
+   "avg_price": 315.63,
+   "value_usd": 131.34,
+   "weight_pct": 1.95,
+   "pl_usd": -184.29,
+   "pl_pct": -58.39,
+   "held_since": "2025-09-30",
+   "held_days": 398,
+   "buys": 1,
+   "last_buy": "2025-09-30",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -58% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 273.7
+  },
+  {
+   "ticker": "RACE.US",
+   "name": "Ferrari",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 395.92,
+   "avg_price": 501.53,
+   "value_usd": 395.92,
+   "weight_pct": 5.87,
+   "pl_usd": -105.61,
+   "pl_pct": -21.06,
+   "held_since": "2025-10-02",
+   "held_days": 396,
+   "buys": 1,
+   "last_buy": "2025-10-02",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "over_limit"
+   ],
+   "hints": [
+    "выше лимита 5% на $59 — сократить до лимита или не докупать"
+   ],
+   "research": "full",
+   "priority": 254.4
+  },
+  {
+   "ticker": "ORCL.US",
+   "name": "Oracle Corp.",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 2.0,
+   "price": 130.89,
+   "avg_price": 189.065,
+   "value_usd": 261.78,
+   "weight_pct": 3.88,
+   "pl_usd": -116.35,
+   "pl_pct": -30.77,
+   "held_since": "2026-05-29",
+   "held_days": 157,
+   "buys": 2,
+   "last_buy": "2026-08-13",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -31% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 244.9
+  },
+  {
+   "ticker": "HSBK.KZ",
+   "name": "Народный банк Казахстана",
+   "class": "stock",
+   "bond": false,
+   "currency": "KZT",
+   "qty": 524.0,
+   "price": 372.93,
+   "avg_price": 325.652383,
+   "value_usd": 430.7,
+   "weight_pct": 6.38,
+   "pl_usd": 54.6,
+   "pl_pct": 14.52,
+   "held_since": "2025-03-28",
+   "held_days": 584,
+   "buys": 8,
+   "last_buy": "2026-05-19",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "over_limit",
+    "no_mentor"
+   ],
+   "hints": [
+    "выше лимита 5% на $93 — сократить до лимита или не докупать",
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 213.8
+  },
+  {
+   "ticker": "PALL.US",
+   "name": "Aberdeen Standard Physical Palladium Shares",
+   "class": "hedge",
+   "bond": false,
+   "currency": "USD",
+   "qty": 10.0,
+   "price": 17.79,
+   "avg_price": 27.28,
+   "value_usd": 177.9,
+   "weight_pct": 2.64,
+   "pl_usd": -94.9,
+   "pl_pct": -34.79,
+   "held_since": "2025-10-15",
+   "held_days": 383,
+   "buys": 2,
+   "last_buy": "2025-11-13",
+   "themes": [],
+   "my_tp": 34.5,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": 34.5,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -35% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 198.3
+  },
+  {
+   "ticker": "GLD.US",
+   "name": "SPDR Gold Shares ETF",
+   "class": "hedge",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 356.14,
+   "avg_price": 405.66,
+   "value_usd": 356.14,
+   "weight_pct": 5.28,
+   "pl_usd": -49.52,
+   "pl_pct": -12.21,
+   "held_since": "2026-08-31",
+   "held_days": 63,
+   "buys": 2,
+   "last_buy": "2026-08-31",
+   "themes": [
+    "золото"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "НАКАПЛИВАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "over_limit",
+    "theme_full"
+   ],
+   "hints": [
+    "выше лимита 5% на $19 — сократить до лимита или не докупать",
+    "тема «золото» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 186.4
+  },
+  {
+   "ticker": "FXI.US",
+   "name": "iShares China Large-Cap ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 10.0,
+   "price": 33.03,
+   "avg_price": 40.927,
+   "value_usd": 330.3,
+   "weight_pct": 4.89,
+   "pl_usd": -78.97,
+   "pl_pct": -19.3,
+   "held_since": "2025-09-17",
+   "held_days": 411,
+   "buys": 4,
+   "last_buy": "2025-12-04",
+   "themes": [
+    "Китай"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "near_limit",
+    "theme_full"
+   ],
+   "hints": [
+    "близко к лимиту — докупать нельзя",
+    "тема «Китай» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 178.1
+  },
+  {
+   "ticker": "KWEB.US",
+   "name": "KraneShares CSI China Internet ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 5.0,
+   "price": 22.65,
+   "avg_price": 35.53,
+   "value_usd": 113.25,
+   "weight_pct": 1.68,
+   "pl_usd": -64.4,
+   "pl_pct": -36.25,
+   "held_since": "2026-01-30",
+   "held_days": 276,
+   "buys": 1,
+   "last_buy": "2026-01-30",
+   "themes": [
+    "Китай"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss",
+    "theme_full"
+   ],
+   "hints": [
+    "убыток -36% — проверить тезис; «вернётся к средней» не аргумент",
+    "тема «Китай» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 148.4
+  },
+  {
+   "ticker": "MP.US",
+   "name": "MP Materials Corp",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 3.0,
+   "price": 39.54,
+   "avg_price": 59.663333,
+   "value_usd": 118.62,
+   "weight_pct": 1.76,
+   "pl_usd": -60.37,
+   "pl_pct": -33.73,
+   "held_since": "2026-01-29",
+   "held_days": 277,
+   "buys": 2,
+   "last_buy": "2026-01-30",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -34% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 146.0
+  },
+  {
+   "ticker": "NFLX/10.ITS",
+   "name": "Global Single Stock ETF NFLX/10 ETF",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 12.0,
+   "price": 6.2202,
+   "avg_price": 11.5802,
+   "value_usd": 74.64,
+   "weight_pct": 1.11,
+   "pl_usd": -64.32,
+   "pl_pct": -46.29,
+   "held_since": "2025-11-13",
+   "held_days": 354,
+   "buys": 1,
+   "last_buy": "2025-11-13",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss",
+    "no_mentor"
+   ],
+   "hints": [
+    "убыток -46% — проверить тезис; «вернётся к средней» не аргумент",
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 136.7
+  },
+  {
+   "ticker": "PDD.US",
+   "name": "PDD Holdings Inc",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 78.59,
+   "avg_price": 136.44,
+   "value_usd": 78.59,
+   "weight_pct": 1.16,
+   "pl_usd": -57.85,
+   "pl_pct": -42.4,
+   "held_since": "2025-10-02",
+   "held_days": 396,
+   "buys": 1,
+   "last_buy": "2025-10-02",
+   "themes": [
+    "Китай"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss",
+    "theme_full"
+   ],
+   "hints": [
+    "убыток -42% — проверить тезис; «вернётся к средней» не аргумент",
+    "тема «Китай» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 131.4
+  },
+  {
+   "ticker": "PSIX.US",
+   "name": "POWER SOLUTIONS INTERNATIONA",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 2.0,
+   "price": 45.59,
+   "avg_price": 70.482,
+   "value_usd": 91.18,
+   "weight_pct": 1.35,
+   "pl_usd": -49.78,
+   "pl_pct": -35.32,
+   "held_since": "2026-05-01",
+   "held_days": 185,
+   "buys": 1,
+   "last_buy": "2026-05-01",
+   "themes": [],
+   "my_tp": 100.0,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": 100.0,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -35% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 127.1
+  },
+  {
+   "ticker": "IAU.US",
+   "name": "iShares Gold Trust ETF",
+   "class": "hedge",
+   "bond": false,
+   "currency": "USD",
+   "qty": 4.0,
+   "price": 73.05,
+   "avg_price": 81.315,
+   "value_usd": 292.2,
+   "weight_pct": 4.33,
+   "pl_usd": -33.06,
+   "pl_pct": -10.16,
+   "held_since": "2026-08-13",
+   "held_days": 81,
+   "buys": 2,
+   "last_buy": "2026-09-16",
+   "themes": [
+    "золото"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "near_limit",
+    "theme_full"
+   ],
+   "hints": [
+    "близко к лимиту — докупать нельзя",
+    "тема «золото» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 120.7
+  },
+  {
+   "ticker": "EXK.US",
+   "name": "Endeavour Silver Corporation",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 12.0,
+   "price": 7.24,
+   "avg_price": 10.888,
+   "value_usd": 86.88,
+   "weight_pct": 1.29,
+   "pl_usd": -43.78,
+   "pl_pct": -33.5,
+   "held_since": "2026-05-14",
+   "held_days": 172,
+   "buys": 1,
+   "last_buy": "2026-05-14",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "исламский",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "deep_loss"
+   ],
+   "hints": [
+    "убыток -34% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 119.8
+  },
+  {
+   "ticker": "VNRX.US",
+   "name": "VolitionRX Ltd",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 220.0,
+   "price": 0.1959,
+   "avg_price": 0.452,
+   "value_usd": 43.1,
+   "weight_pct": 0.64,
+   "pl_usd": -56.34,
+   "pl_pct": -56.66,
+   "held_since": "2026-08-20",
+   "held_days": 74,
+   "buys": 1,
+   "last_buy": "2026-08-20",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "small",
+    "deep_loss",
+    "no_mentor"
+   ],
+   "hints": [
+    "мелкая (<1%): на итог не влияет — довести до значимой доли или выйти",
+    "убыток -57% — проверить тезис; «вернётся к средней» не аргумент",
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 119.3
+  },
+  {
+   "ticker": "REMX.US",
+   "name": "VanEck Vectors Rare Earth/Strategic Metals ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 50.6,
+   "avg_price": 92.2,
+   "value_usd": 50.6,
+   "weight_pct": 0.75,
+   "pl_usd": -41.6,
+   "pl_pct": -45.12,
+   "held_since": "2026-01-29",
+   "held_days": 277,
+   "buys": 1,
+   "last_buy": "2026-01-29",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "small",
+    "deep_loss"
+   ],
+   "hints": [
+    "мелкая (<1%): на итог не влияет — довести до значимой доли или выйти",
+    "убыток -45% — проверить тезис; «вернётся к средней» не аргумент"
+   ],
+   "research": "full",
+   "priority": 106.8
+  },
+  {
+   "ticker": "XLV.US",
+   "name": "Health Care Select Sector SPDR",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 184.91,
+   "avg_price": 137.16,
+   "value_usd": 184.91,
+   "weight_pct": 2.74,
+   "pl_usd": 47.75,
+   "pl_pct": 34.81,
+   "held_since": "2025-09-16",
+   "held_days": 412,
+   "buys": 1,
+   "last_buy": "2025-09-16",
+   "themes": [
+    "здравоохранение"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "НАКАПЛИВАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 103.2
+  },
+  {
+   "ticker": "IBIT.US",
+   "name": "iShares Bitcoin Trust",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 6.0,
+   "price": 43.7,
+   "avg_price": 46.78,
+   "value_usd": 262.2,
+   "weight_pct": 3.89,
+   "pl_usd": -18.48,
+   "pl_pct": -6.58,
+   "held_since": "2026-10-09",
+   "held_days": 24,
+   "buys": 1,
+   "last_buy": "2026-10-09",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 97.1
+  },
+  {
+   "ticker": "PPLT.US",
+   "name": "ETFS Physical Platinum Shares",
+   "class": "hedge",
+   "bond": false,
+   "currency": "USD",
+   "qty": 14.0,
+   "price": 13.0,
+   "avg_price": 15.995,
+   "value_usd": 182.0,
+   "weight_pct": 2.7,
+   "pl_usd": -41.93,
+   "pl_pct": -18.72,
+   "held_since": "2026-09-16",
+   "held_days": 47,
+   "buys": 1,
+   "last_buy": "2026-09-16",
+   "themes": [],
+   "my_tp": 22.5,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    },
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": 22.5,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 96.5
+  },
+  {
+   "ticker": "IXJ.US",
+   "name": "iShares Global Healthcare",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 2.0,
+   "price": 112.71,
+   "avg_price": 99.01,
+   "value_usd": 225.42,
+   "weight_pct": 3.34,
+   "pl_usd": 27.4,
+   "pl_pct": 13.84,
+   "held_since": "2026-05-28",
+   "held_days": 158,
+   "buys": 2,
+   "last_buy": "2026-09-30",
+   "themes": [
+    "здравоохранение"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "НАКАПЛИВАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "НАКАПЛИВАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 95.0
+  },
+  {
+   "ticker": "WMT.US",
+   "name": "Wal-Mart Stores",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 2.0,
+   "price": 123.5,
+   "avg_price": 113.12,
+   "value_usd": 247.0,
+   "weight_pct": 3.66,
+   "pl_usd": 20.76,
+   "pl_pct": 9.18,
+   "held_since": "2026-07-16",
+   "held_days": 109,
+   "buys": 2,
+   "last_buy": "2026-07-31",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 94.9
+  },
+  {
+   "ticker": "FFSPC2.0929.AIX.KZ",
+   "name": "Bonds of FFSPC Ltd",
+   "class": null,
+   "bond": true,
+   "currency": "USD",
+   "qty": 3.0,
+   "price": 100.0,
+   "avg_price": 99.99,
+   "value_usd": 299.97,
+   "weight_pct": 4.45,
+   "pl_usd": 0.95,
+   "pl_pct": 0.32,
+   "held_since": "2026-10-19",
+   "held_days": 14,
+   "buys": 1,
+   "last_buy": "2026-10-19",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "пассивный доход",
+     "rec": "НАКАПЛИВАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": "2029-09-21",
+   "coupon_pct": 8.54,
+   "ytm_pct": 8.749438,
+   "price_from_trade": false,
+   "flags": [
+    "near_limit",
+    "unclassified"
+   ],
+   "hints": [
+    "близко к лимиту — докупать нельзя"
+   ],
+   "research": "light",
+   "priority": 90.9
+  },
+  {
+   "ticker": "INDA.US",
+   "name": "iShares MSCI India ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 4.0,
+   "price": 47.72,
+   "avg_price": 54.35,
+   "value_usd": 190.88,
+   "weight_pct": 2.83,
+   "pl_usd": -26.52,
+   "pl_pct": -12.2,
+   "held_since": "2025-11-13",
+   "held_days": 354,
+   "buys": 1,
+   "last_buy": "2025-11-13",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 83.8
+  },
+  {
+   "ticker": "EWY.US",
+   "name": "iShares MSCI South Korea Capped ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 153.18,
+   "avg_price": 179.04,
+   "value_usd": 153.18,
+   "weight_pct": 2.27,
+   "pl_usd": -25.86,
+   "pl_pct": -14.44,
+   "held_since": "2026-08-13",
+   "held_days": 81,
+   "buys": 1,
+   "last_buy": "2026-08-13",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 71.8
+  },
+  {
+   "ticker": "PAVE.US",
+   "name": "GLOBAL X US INFRASTRUCTURE",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 4.0,
+   "price": 53.52,
+   "avg_price": 55.155,
+   "value_usd": 214.08,
+   "weight_pct": 3.17,
+   "pl_usd": -6.54,
+   "pl_pct": -2.96,
+   "held_since": "2026-03-12",
+   "held_days": 235,
+   "buys": 2,
+   "last_buy": "2026-05-01",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 70.8
+  },
+  {
+   "ticker": "MFOKB28.KZ",
+   "name": "АО МФО ОнлайнКазФинанс",
+   "class": null,
+   "bond": true,
+   "currency": "KZT",
+   "qty": 102.0,
+   "price": 100.4,
+   "avg_price": 100.0,
+   "value_usd": 225.71,
+   "weight_pct": 3.34,
+   "pl_usd": 1.04,
+   "pl_pct": 0.46,
+   "held_since": "2026-10-29",
+   "held_days": 4,
+   "buys": 1,
+   "last_buy": "2026-10-29",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": "2028-12-24",
+   "coupon_pct": 23.0,
+   "ytm_pct": 23.3,
+   "price_from_trade": false,
+   "flags": [
+    "unclassified"
+   ],
+   "hints": [],
+   "research": "light",
+   "priority": 68.8
+  },
+  {
+   "ticker": "DBB.US",
+   "name": "PowerShares DB Base Metals Fund",
+   "class": "hedge",
+   "bond": false,
+   "currency": "USD",
+   "qty": 8.0,
+   "price": 24.84,
+   "avg_price": 24.67375,
+   "value_usd": 198.72,
+   "weight_pct": 2.94,
+   "pl_usd": 1.33,
+   "pl_pct": 0.67,
+   "held_since": "2026-03-12",
+   "held_days": 235,
+   "buys": 2,
+   "last_buy": "2026-05-01",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 60.9
+  },
+  {
+   "ticker": "XLU.US",
+   "name": "Utilities Select Sector SPDR",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 4.0,
+   "price": 43.45,
+   "avg_price": 43.79,
+   "value_usd": 173.8,
+   "weight_pct": 2.58,
+   "pl_usd": -1.36,
+   "pl_pct": -0.78,
+   "held_since": "2025-12-04",
+   "held_days": 333,
+   "buys": 1,
+   "last_buy": "2025-12-04",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 53.5
+  },
+  {
+   "ticker": "SPCX.US",
+   "name": "Space Exploration Technologies",
+   "class": null,
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 136.05,
+   "avg_price": 148.28,
+   "value_usd": 136.05,
+   "weight_pct": 2.02,
+   "pl_usd": -12.23,
+   "pl_pct": -8.25,
+   "held_since": "2026-10-26",
+   "held_days": 7,
+   "buys": 1,
+   "last_buy": "2026-10-26",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "unclassified"
+   ],
+   "hints": [],
+   "research": "full",
+   "priority": 53.0
+  },
+  {
+   "ticker": "AVNW.US",
+   "name": "Aviat Networks, Inc. - Common Stock",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 5.0,
+   "price": 20.18,
+   "avg_price": 24.326,
+   "value_usd": 100.9,
+   "weight_pct": 1.5,
+   "pl_usd": -20.73,
+   "pl_pct": -17.04,
+   "held_since": "2025-10-02",
+   "held_days": 396,
+   "buys": 2,
+   "last_buy": "2026-02-13",
+   "themes": [],
+   "my_tp": 26.4,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": 26.4,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 51.0
+  },
+  {
+   "ticker": "AIRA.KZ",
+   "name": "АО Эйр Астана",
+   "class": "stock",
+   "bond": false,
+   "currency": "KZT",
+   "qty": 80.0,
+   "price": 699.87,
+   "avg_price": 749.11875,
+   "value_usd": 123.4,
+   "weight_pct": 1.83,
+   "pl_usd": -8.68,
+   "pl_pct": -6.57,
+   "held_since": "2024-12-06",
+   "held_days": 696,
+   "buys": 5,
+   "last_buy": "2025-07-02",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "no_mentor"
+   ],
+   "hints": [
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 45.7
+  },
+  {
+   "ticker": "KSPI.KZ",
+   "name": "АО \"KASPI.KZ\"",
+   "class": "stock",
+   "bond": false,
+   "currency": "KZT",
+   "qty": 1.0,
+   "price": 42570.0,
+   "avg_price": 48554.77,
+   "value_usd": 93.83,
+   "weight_pct": 1.39,
+   "pl_usd": -13.19,
+   "pl_pct": -12.33,
+   "held_since": "2025-08-05",
+   "held_days": 454,
+   "buys": 1,
+   "last_buy": "2025-08-05",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "no_mentor"
+   ],
+   "hints": [
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 41.3
+  },
+  {
+   "ticker": "JD.US",
+   "name": "JD.com Inc",
+   "class": "stock",
+   "bond": false,
+   "currency": "USD",
+   "qty": 3.0,
+   "price": 25.65,
+   "avg_price": 31.42,
+   "value_usd": 76.95,
+   "weight_pct": 1.14,
+   "pl_usd": -17.31,
+   "pl_pct": -18.36,
+   "held_since": "2026-04-20",
+   "held_days": 196,
+   "buys": 1,
+   "last_buy": "2026-04-20",
+   "themes": [
+    "Китай"
+   ],
+   "my_tp": 42.0,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": 42.0,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "theme_full"
+   ],
+   "hints": [
+    "тема «Китай» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 40.4
+  },
+  {
+   "ticker": "POWR.US",
+   "name": "iShares US Power Infrastructure ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 4.0,
+   "price": 25.02,
+   "avg_price": 27.59,
+   "value_usd": 100.08,
+   "weight_pct": 1.48,
+   "pl_usd": -10.28,
+   "pl_pct": -9.31,
+   "held_since": "2026-06-16",
+   "held_days": 139,
+   "buys": 1,
+   "last_buy": "2026-06-16",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 40.3
+  },
+  {
+   "ticker": "COPX.US",
+   "name": "Global X Copper Miners",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 72.0,
+   "avg_price": 89.04,
+   "value_usd": 72.0,
+   "weight_pct": 1.07,
+   "pl_usd": -17.04,
+   "pl_pct": -19.14,
+   "held_since": "2026-02-03",
+   "held_days": 272,
+   "buys": 1,
+   "last_buy": "2026-02-03",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "no_mentor"
+   ],
+   "hints": [
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 38.6
+  },
+  {
+   "ticker": "XLG.US",
+   "name": "Invesco S&P 500 Top 50 ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 2.0,
+   "price": 61.6,
+   "avg_price": 61.18,
+   "value_usd": 123.2,
+   "weight_pct": 1.83,
+   "pl_usd": 0.84,
+   "pl_pct": 0.69,
+   "held_since": "2026-07-01",
+   "held_days": 124,
+   "buys": 1,
+   "last_buy": "2026-07-01",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 37.8
+  },
+  {
+   "ticker": "XLP.US",
+   "name": "Consumer Staples Select Sector SPDR Fund",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 89.45,
+   "avg_price": 79.29,
+   "value_usd": 89.45,
+   "weight_pct": 1.33,
+   "pl_usd": 10.16,
+   "pl_pct": 12.81,
+   "held_since": "2025-10-15",
+   "held_days": 383,
+   "buys": 1,
+   "last_buy": "2025-10-15",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "состоятельный инвестор",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [],
+   "hints": [],
+   "research": "full",
+   "priority": 37.0
+  },
+  {
+   "ticker": "KEGC.KZ",
+   "name": "KEGOC",
+   "class": "stock",
+   "bond": false,
+   "currency": "KZT",
+   "qty": 33.0,
+   "price": 1454.7,
+   "avg_price": 1483.0,
+   "value_usd": 105.81,
+   "weight_pct": 1.57,
+   "pl_usd": -2.06,
+   "pl_pct": -1.91,
+   "held_since": "2025-04-01",
+   "held_days": 580,
+   "buys": 1,
+   "last_buy": "2025-04-01",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "no_mentor"
+   ],
+   "hints": [
+    "нет ни в одном портфеле наставников — решение только на моём тезисе"
+   ],
+   "research": "full",
+   "priority": 33.8
+  },
+  {
+   "ticker": "MCHI.US",
+   "name": "iShares MSCI China ETF",
+   "class": "index",
+   "bond": false,
+   "currency": "USD",
+   "qty": 1.0,
+   "price": 49.89,
+   "avg_price": 63.26,
+   "value_usd": 49.89,
+   "weight_pct": 0.74,
+   "pl_usd": -13.37,
+   "pl_pct": -21.13,
+   "held_since": "2025-10-15",
+   "held_days": 383,
+   "buys": 1,
+   "last_buy": "2025-10-15",
+   "themes": [
+    "Китай"
+   ],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [
+    {
+     "portfolio": "светлое будущее",
+     "rec": "ДЕРЖАТЬ",
+     "tp": null,
+     "sl": null
+    }
+   ],
+   "mentor_primary_rec": "ДЕРЖАТЬ",
+   "maturity": null,
+   "coupon_pct": null,
+   "ytm_pct": null,
+   "price_from_trade": false,
+   "flags": [
+    "small",
+    "theme_full"
+   ],
+   "hints": [
+    "мелкая (<1%): на итог не влияет — довести до значимой доли или выйти",
+    "тема «Китай» 9.6% при лимите 10%"
+   ],
+   "research": "full",
+   "priority": 28.3
+  },
+  {
+   "ticker": "CLSGB13.KZ",
+   "name": "ТОО Capital Leasing Group (Ка",
+   "class": "hedge",
+   "bond": true,
+   "currency": "KZT",
+   "qty": 28.0,
+   "price": 100.9998,
+   "avg_price": 99.982042,
+   "value_usd": 62.33,
+   "weight_pct": 0.92,
+   "pl_usd": 2.5,
+   "pl_pct": 4.05,
+   "held_since": "2026-09-01",
+   "held_days": 62,
+   "buys": 4,
+   "last_buy": "2026-10-01",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": "2029-08-24",
+   "coupon_pct": 22.5,
+   "ytm_pct": 22.0,
+   "price_from_trade": false,
+   "flags": [
+    "small"
+   ],
+   "hints": [
+    "мелкая (<1%): на итог не влияет — довести до значимой доли или выйти"
+   ],
+   "research": "light",
+   "priority": 21.2
+  },
+  {
+   "ticker": "MFRFB16.KZ",
+   "name": "МФО R-Finance",
+   "class": "hedge",
+   "bond": true,
+   "currency": "KZT",
+   "qty": 10.0,
+   "price": 97.85,
+   "avg_price": 99.9999,
+   "value_usd": 21.57,
+   "weight_pct": 0.32,
+   "pl_usd": -0.45,
+   "pl_pct": -2.03,
+   "held_since": "2025-05-28",
+   "held_days": 523,
+   "buys": 1,
+   "last_buy": "2025-05-28",
+   "themes": [],
+   "my_tp": null,
+   "my_sl": null,
+   "mentors": [],
+   "mentor_primary_rec": null,
+   "maturity": "2028-03-28",
+   "coupon_pct": 21.0,
+   "ytm_pct": 22.76,
+   "price_from_trade": false,
+   "flags": [
+    "small"
+   ],
+   "hints": [
+    "мелкая (<1%): на итог не влияет — довести до значимой доли или выйти"
+   ],
+   "research": "light",
+   "priority": 6.9
+  }
+ ]
+}
