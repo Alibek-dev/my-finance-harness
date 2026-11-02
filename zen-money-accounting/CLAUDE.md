@@ -4,6 +4,19 @@
 сверяются с уже существующими в Дзен-мани, категоризируются и заносятся через коннектор Дзен-мани.
 Каждое решение логируется, чтобы со временем учёт шёл всё более автоматически.
 
+## Коннектор Дзен-мани
+
+Официальный MCP `https://api.zenmoney.app/mcp` (OAuth), подключён в корневом `.mcp.json` как `zenmoney`.
+Документация: https://github.com/zenmoney/ZenPlugins/wiki/Zenmoney-MCP. Банки он не синхронизирует и деньги не двигает.
+
+- Чтение: `get_user`, `list_accounts`, `get_account_balances`, `list_categories`, `list_transactions`
+  (фильтры: период, счёт, категория, тег, контрагент, комментарий, сумма), `list_scheduled_transactions`,
+  `get_monthly_report`, `get_instrument_rates`, `search_merchants`, `search_financial_institutions`, `search_help`
+- Запись: `upsert_transactions` (операции, переводы, долги), `delete_transactions` (**безвозвратно**),
+  `upsert_accounts`, `upsert_categories`, `create_merchant`
+
+`delete_transactions` вызывать только по явной просьбе пользователя, указав конкретные операции.
+
 ## Структура
 
 - `inbox/` — временное место для выписок. **Не коммитится. После обработки файл удаляется.**
