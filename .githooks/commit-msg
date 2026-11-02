@@ -1,0 +1,36 @@
+#!/bin/sh
+# Conventional Commits + запрет AI-атрибуции. Правила — в CLAUDE.md, раздел «Коммиты».
+msg_file="$1"
+subject=$(grep -v '^#' "$msg_file" | sed -n '1p')
+
+# Служебные сообщения git пропускаем
+case "$subject" in
+  Merge\ *|Revert\ *|fixup!\ *|squash!\ *|amend!\ *) exit 0 ;;
+esac
+
+types='feat|fix|refactor|perf|docs|test|build|ci|chore|revert|data'
+if ! printf '%s' "$subject" | grep -qE "^($types)(\([a-z0-9-]+\))?!?: [^ ].*"; then
+  cat >&2 <<EOF
+commit-msg: заголовок не по Conventional Commits:
+  $subject
+Формат: <тип>(<scope>)!: <описание>
+Типы: feat, fix, refactor, perf, docs, test, build, ci, chore, revert, data
+Пример: feat(zm-import): сверка остатка счёта после импорта
+EOF
+  exit 1
+fi
+
+len=$(printf '%s' "$subject" | LC_ALL=en_US.UTF-8 wc -m | tr -d ' ')
+if [ "$len" -gt 72 ]; then
+  echo "commit-msg: заголовок длиннее 72 символов ($len) — подробности перенеси в тело" >&2
+  exit 1
+fi
+
+case "$subject" in
+  *.) echo "commit-msg: без точки в конце заголовка" >&2; exit 1 ;;
+esac
+
+if grep -v '^#' "$msg_file" | grep -qiE 'co-authored-by:.*(claude|anthropic|noreply@anthropic)|generated with .*claude'; then
+  echo "commit-msg: AI-атрибуция (Co-Authored-By: Claude / Generated with Claude Code) запрещена — удали эти строки" >&2
+  exit 1
+fi
