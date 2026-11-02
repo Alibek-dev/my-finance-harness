@@ -8,7 +8,6 @@ description: Курс Freedom Bank (безналичный, покупка/пр�
 ```bash
 cd zen-money-accounting
 python3 skills/zm-freedom-rate/freedom_rate.py get 2026-11-02 --cur USD --side sell --amount 10
-python3 skills/zm-freedom-rate/freedom_rate.py snapshot      # вручную сохранить текущий курс
 ```
 
 Вывод — JSON: `rate`, `kzt` (= amount × rate), `source`.
@@ -26,12 +25,11 @@ python3 skills/zm-freedom-rate/freedom_rate.py snapshot      # вручную с
 ## Источники (`source`)
 
 1. `live` — API `bankffin.kz/api/exchange-rates/getRates` (блок `non_cash`). Только текущий курс — истории
-   у банка нет, параметр даты игнорируется.
-2. `snapshot` — свои снимки в `rates/freedom.jsonl` (коммитится, это публичные данные). Пишет cron:
-   `5 9-23/2 * * *` → `freedom_rate.py snapshot`, лог `~/.hermes/cache/freedom_rate.log`.
-   Курс меняется в течение дня — смотри `day_min`/`day_max`.
-3. `nbk` — официальный курс НБ РК на дату, если снимков нет. **Это оценка:** карточный курс Freedom
-   в октябре 2026 был на ~1–3 % выше НБ РК.
+   у банка нет, параметр даты игнорируется. Поэтому для свежих и pending-операций курс точный.
+2. `nbk` — официальный курс НБ РК на прошлую дату. **Это оценка:** карточный курс Freedom в октябре 2026
+   был на ~1–3 % выше НБ РК. Если в тот же день есть уже внесённые валютные операции с реальной суммой в ₸
+   (fx-пары из `match.py`), их курс точнее.
+   Фоновый сбор курсов (cron) пользователь не хочет — не предлагать.
 
 ## После записи
 
