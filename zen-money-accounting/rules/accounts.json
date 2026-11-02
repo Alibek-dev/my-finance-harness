@@ -1,1 +1,10 @@
-{}
+{
+  "_doc": "bank:маска карты -> счёт Дзен-мани. source: откуда известно соответствие.",
+  "kaspi:*6414": {"zen_id": "e1a5a995-8fe8-4452-bb36-fa6573c285c3", "title": "Kaspi Gold", "source": "list_accounts"},
+  "freedom:*7488": {"zen_id": "77eb6bff-93d0-4c62-8ff4-df2f883da953", "title": "Freedom Super Card", "source": "list_accounts"},
+  "_related": {
+    "Каспи депозит": "dcaaadf0-c7ed-4525-8667-233447fd2dee",
+    "Копилка (Freedom)": "62f54f7f-7362-459b-a2cb-b5f550d14f3f",
+    "Копилка для кредитов (Freedom)": "2cdb1bbd-25b5-4b4b-8c6f-28aabe853aa2"
+  }
+}
