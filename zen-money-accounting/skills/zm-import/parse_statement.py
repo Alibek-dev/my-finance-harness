@@ -89,7 +89,8 @@ def parse_kaspi(pdf):
         parsed = round(sum(by[t] for t in types), 2)
         stated = summary.get(label)
         checks[label] = {"parsed": parsed, "statement": stated}
-    return {"bank": "kaspi", "product": "Kaspi Gold", "account": acc.group(1) if acc else None, "currency": "KZT",
+    bal = re.search(r"Доступно на \d{2}\.\d{2}\.\d{2}:\s*([+-]) ([\d ]+,\d{2}) ₸", text)
+    return {"bank": "kaspi", "product": "Kaspi Gold", "closing_balance": num(bal.group(1) + bal.group(2)) if bal else None, "account": acc.group(1) if acc else None, "currency": "KZT",
             "period": {"from": iso(per.group(1)), "to": iso(per.group(2))} if per else None,
             "ops": ops, "checks": checks}
 
@@ -154,7 +155,8 @@ def parse_freedom(pdf):
                 c["implied_rate"] = round(abs(rest / v), 2) if v else None
             c["ok"] = None  # нельзя проверить точно — смотри implied_rate
         checks[label] = c
-    return {"bank": "freedom", "product": "Super Card", "account": "*" + acc.group(1) if acc else None,
+    bal = re.search(r"\bKZT ([\d,]+\.\d{2}) ₸", text)
+    return {"bank": "freedom", "product": "Super Card", "closing_balance": num(bal.group(1)) if bal else None, "account": "*" + acc.group(1) if acc else None,
             "currency": "KZT", "period": {"from": iso(per.group(1)), "to": iso(per.group(2))} if per else None,
             "ops": ops, "checks": checks}
 
