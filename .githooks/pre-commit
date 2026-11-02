@@ -9,7 +9,9 @@ if [ -n "$bad" ]; then
 fi
 
 # Номера карт (16 цифр) и ИИН (12 цифр) в добавленных строках
-leak=$(git diff --cached -U0 --diff-filter=AM | grep '^+' | grep -v '^+++' | grep -nE '\b[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}\b|\b[0-9]{12}\b')
+leak=$(git diff --cached -U0 --diff-filter=AM | grep '^+' | grep -v '^+++' \
+  | sed -E 's/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}/<uuid>/g' \
+  | grep -nE '\b[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}\b|\b[0-9]{12}\b')
 if [ -n "$leak" ]; then
   echo "pre-commit: похоже на номер карты или ИИН — замаскируй (например *1234):" >&2
   echo "$leak" | head -5 >&2

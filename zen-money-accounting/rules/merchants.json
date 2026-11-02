@@ -1,1 +1,753 @@
-{}
+{
+ "_doc": "Правила категоризации. match — подстрока нормализованного описания из выписки (без города/страны/номеров касс). source: history (выведено из ранее внесённых операций), user (сказал пользователь), guess. Правила с source=user важнее.",
+ "constraints": [
+  {
+   "rule": "Категория «Инвестиции» (расход) ⇒ контрагент Freedom broker",
+   "merchant_id": "m1_Xbaxzd9Wj9pze-gJKl4nYMOWQREJDLx7_q0-pjMTdXgIBVZXMw",
+   "source": "user"
+  }
+ ],
+ "transfers_to_people": "Переводы людям и пополнения от людей категоризирует только пользователь (смысл — в комментарии); спрашивать.",
+ "rules": [
+  {
+   "match": "ANTHROPIC CLAUDE SUB",
+   "category_id": "e1b05be4-932c-48a9-aa0b-ad33536d885b",
+   "category": "Платежи, комиссии, налоги/Подписки",
+   "merchant_id": "m1_T1TT8vJSb8XZe76RV4D490Zaj1I4K8fpCuIEHmRAKTc",
+   "merchant": "Anthropic",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "APPLE.COM 800-676-2775",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1__pSzEqHQmqqiRnO75huqQ7jzjw",
+   "merchant": "Apple",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "APPLE.COM BILL CORK",
+   "category_id": "e1b05be4-932c-48a9-aa0b-ad33536d885b",
+   "category": "Платежи, комиссии, налоги/Подписки",
+   "merchant_id": "m1__pSzEqHQmqqiRnO75huqQ7jzjw",
+   "merchant": "Apple",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "APPLE.COM BILL ITUNES.COM",
+   "category_id": "e1b05be4-932c-48a9-aa0b-ad33536d885b",
+   "category": "Платежи, комиссии, налоги/Подписки",
+   "merchant_id": "m1_sDU2bfJkiRH0un9RvsmkYz6uKFKzWd2gNX5HCFkHcmXRU8a8PfC1Vg",
+   "merchant": "Дзен-мани",
+   "seen": 3,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "ATP OTEGEN BATYRA",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_Ky529E9HM8zYo7ThBZ2aJFb1SkTPa9aJeqU9",
+   "merchant": "Dodo",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "AUTOOPLATA TELE2",
+   "category_id": "23ffeec9-f36a-4627-b072-69047918c49b",
+   "category": "Платежи, комиссии, налоги/Мобильный интернет",
+   "merchant_id": "m1_dTJnrG0O15obBf4EQwSO-6IfxIdpwDR12HsD8g",
+   "merchant": "TELE2",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "AYANA",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_xIrz6fqxGtW-5c1Tht7UFCxFJWeiPMgi2_Odcg",
+   "merchant": "Ayana",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "AZIYA SHOP",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_X7fyovmjWhy0ybbQqV-qlIN2S-UtehE1nP_UL3tk71rE",
+   "merchant": "Aziya Shop",
+   "seen": 2,
+   "total": 2,
+   "source": "history"
+  },
+  {
+   "match": "BASKET MARKET MINIMARKET",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_vy7VSUhG37LoVgJgSXpC_DMLksDIkc4NgpXOgmciF966YSRRG4TtCvWf42D_BWg",
+   "merchant": "Basket Market Minimarket",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "BORALDAI SHOP",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_fdQKvnNqNbvgHvWEd0073MAZH4wVz1jSm7bQO-MY",
+   "merchant": "Kulikov",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "Beeline Интернет дома",
+   "category_id": "b020fa3b-b855-4b40-bec3-306e2c712fea",
+   "category": "Платежи, комиссии, налоги/Beeline интернет",
+   "merchant_id": "m1_2moqcqwe8qGZqpFuTrbRVIg2rQQb4A1tLjXcOAofMbJYWDhJ4pu6puFPE9FjgGs",
+   "merchant": "Beeline домашний",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "CENTRAL OPTIC OPTICS",
+   "category_id": "aedda7d5-357d-43de-88b9-1f970161fb7b",
+   "category": "Здоровье и фитнес/Очки",
+   "merchant_id": "m1_aqJFB7Ntd7egfUZVRtUQtWVRolBa-SPeiRszNLvndC9MKElN9ClN7rsvyA",
+   "merchant": "Central Optic Optics",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "CU ZHAROKOVA",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_njuX8buCP5K3r7IrHsiWPWA9dTzRqtF47w",
+   "merchant": "Cu",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "DONER NA ABAYA FAST FOOD",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_DyFjhgz5akPp44myZ_lbyPpyZlibQKdDk-oF86if7m--39MFgw",
+   "merchant": "Doner na abaya",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "EUROPHARMA",
+   "category_id": "a0ce6c07-7167-47bc-9c33-cefd707131a6",
+   "category": "Здоровье и фитнес/Лекарства",
+   "merchant_id": "m1_tSvM0EVPBMxgwtbBkJtBYIbCKnjGZF02miwj5BUQiLL0",
+   "merchant": "Europharma",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "FRPAY DINDON",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_32BV_f35iUF7iBxk9mvIlvyEDhSaGwNUQVcOFE8",
+   "merchant": "DinDon",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "GIPPO",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_tNJnOEf_BJrywpm5l9-EfzV6J5TKE2CIpO4MMA",
+   "merchant": "Gippo",
+   "seen": 3,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "GOLDAPPLE",
+   "category_id": "a2a89fa7-ac19-46e6-a9c9-5dd44561da22",
+   "category": "Забота о себе/Косметика",
+   "merchant_id": "m1_0aBmwDxLYn_6UMluOu4Zy54NfEsWk8f29oxJUTLfhFQYhj0",
+   "merchant": "GOLDAPPLE.KZ",
+   "seen": 5,
+   "total": 5,
+   "source": "history"
+  },
+  {
+   "match": "GOOGLE GOOGLE SERVICES CC GOOGLE.COM",
+   "category_id": "6a8cf81b-e797-4675-9702-df8b23680aaa",
+   "category": "Платежи, комиссии, налоги/Хостинг",
+   "merchant_id": "m1_TrpMgL_4850_j5lJw1K-MoN49jM",
+   "merchant": "Google Cloud",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "Games",
+   "category_id": "12819c40-c634-4c49-9f2c-60893233cc11",
+   "category": "Отдых и развлечения/Playstation",
+   "merchant_id": "m1_EBCpv6KPbIhPzsdQ97RCrc9NpBklZgFDWIRIzQ",
+   "merchant": "Games",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "HAYA MEDICAL CENTER",
+   "category_id": "06982f67-8861-4c6d-b2ea-e1647ee3f331",
+   "category": "Здоровье и фитнес/Клиника",
+   "merchant_id": "m1_cpBrv9-_AnNblXjRIRL9KBjGm-vEMKrFADynGtFoT6IQgyhGOWuRO4RH",
+   "merchant": "Haya Medical Center",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "HELIOS",
+   "category_id": "7f342bbc-04e9-4c84-9549-788afc5ecf15",
+   "category": "Машина/Топливо",
+   "merchant_id": "m1_FdeA89vfDkMhAwEAKoV0zrXTzRCr9nxToz58yNE",
+   "merchant": "Helios",
+   "seen": 3,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "IP \"LYUBOV\"",
+   "category_id": "751d91f8-e1cd-414e-9c77-d7a8da3ff2ed",
+   "category": "Забота о себе/Лазерка",
+   "merchant_id": "m1_SwgUOJQtE3m3ng0Xd84SaJoTDaAXS2_oiDra40-t-oI",
+   "merchant": "Ip Lyubov",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP ANTIPIN",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_TQLEMb6p06aTy0iXEofDZykwbXhUMB2VkM6ZR1A2gdA_",
+   "merchant": "Ip Antipin",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP ARAY ALATAU",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_VGUc0oj3tew0AlRV5w5s3onJiYjMga7zLuLNAXfw",
+   "merchant": "Ip Aray",
+   "seen": 3,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "IP BEREKE LP KENTAU",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_wsXpJL3R34EOBwyPcZAQnAKNT8CYrPHaSA1b2PH_mSJYnDU2QQxXSQ",
+   "merchant": "Le Pain Quotidien",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP BEYBARYS BESAGASH",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_dCx2e906AC_K22HUC4Y_HSlWQzCfmWhaOfhNVxauYM3egA",
+   "merchant": "Ip Beybarys",
+   "seen": 3,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "IP CHULENOVA ASTANA",
+   "category_id": "d973bbf2-03be-4282-8859-bbfa0195eb48",
+   "category": "Животные",
+   "merchant_id": "m1_Z8TsU2NMd2z-hcD8MjyULxuCFZk0cJKKqaWeEHzLquLpalE",
+   "merchant": "Ip Chulenova",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP DIANA TALGAR",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_uH6dEqOn-0lEPZEsjIApEHRZKurhgL5ubVFo3pScng",
+   "merchant": "Ip Diana",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "IP GNATENKO ALEKSANDR VLA",
+   "category_id": "5167c10d-79fc-4c13-9e70-391cc6cca850",
+   "category": "Кафе и рестораны/Обед",
+   "merchant_id": "m1__yNf5uDoxS5psDI8ifGq50JxhmHS6fjG7JHGkw187bPoahwm",
+   "merchant": "Kaspi canteen",
+   "seen": 35,
+   "total": 37,
+   "source": "history"
+  },
+  {
+   "match": "IP ICE PRODUCTS",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_dTmqEwcLlcCoFhVFtf1ZH-s6KG1mYJjoZT4gVQnD4g",
+   "merchant": "Ice Fish",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP LONGINOVA N.B",
+   "category_id": "5167c10d-79fc-4c13-9e70-391cc6cca850",
+   "category": "Кафе и рестораны/Обед",
+   "merchant_id": "m1_DHADJnEC2cstVfSktmjM-UyhafgS3NllI28W9233hewc0l0IaO0yA6BRASCQedWXQ8EYQYwiPHYrlcPIxlf9FVw9fCVmH6yHFGh7fQ",
+   "merchant": "Kaspi аппарат самообслуживания",
+   "seen": 11,
+   "total": 11,
+   "source": "history"
+  },
+  {
+   "match": "IP MAMEDOVA S.MUHAMETZHAN",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_eaTK4sK6LH7w00w3xYLEiIODTESLz3Dw0UQY34lK9OkD3w",
+   "merchant": "Ip Mamedova",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP TUMAR S.YNTALY",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_HyMdR5dsr_LZTqNfo4HZfrPZEXIf8iKuc5FyDvVaQQ",
+   "merchant": "Ip Tumar",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "IP UDZHUR",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_4aOysyq5M4RTRxEeoI0OOlRgMiRlkT8mHRMerA",
+   "merchant": "Mixue",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IP ZHUMAGULOV ALMAT MALIB POKROVKA",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_LZIGl0ggOKWKIDLRfDbCjNiJJPO_wafm1V-jQn9sWdjpJ6seoHXb9VQ",
+   "merchant": "Korean Street Food",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "IVI.RU",
+   "category_id": "e1b05be4-932c-48a9-aa0b-ad33536d885b",
+   "category": "Платежи, комиссии, налоги/Подписки",
+   "merchant_id": "m1_2A2qZf_N0h-Hi1-ua5bDiglcNbcYRG1LFaWraMg",
+   "merchant": "Ivi.ru",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "Izi Almaty",
+   "category_id": "23ffeec9-f36a-4627-b072-69047918c49b",
+   "category": "Платежи, комиссии, налоги/Мобильный интернет",
+   "merchant_id": "m1_v5CDMV4T49P7qLMIFo3NqkmKhF1R9KtMgBA",
+   "merchant": "Izi",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "JETPAY. DODO",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_Ky529E9HM8zYo7ThBZ2aJFb1SkTPa9aJeqU9",
+   "merchant": "Dodo",
+   "seen": 2,
+   "total": 2,
+   "source": "history"
+  },
+  {
+   "match": "MADINA SHOP",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_dNs1H_ZmDUu1DeWuyrFt5hhmd_Ed6QlYTlLcJcNhBdmwoQ",
+   "merchant": "Madina shop",
+   "seen": 7,
+   "total": 7,
+   "source": "history"
+  },
+  {
+   "match": "MAGNUM CASH CARRY",
+   "category_id": "1495e2c7-6817-440a-a05c-8c2745ff1e7c",
+   "category": "Продукты/Супермаркет",
+   "merchant_id": "m1_V2a-lhSJ1ACXp6csnJYCyH_KF4qyV7LUwHYgZvQ",
+   "merchant": "Magnum",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "MAGNUM.AF8",
+   "category_id": "1495e2c7-6817-440a-a05c-8c2745ff1e7c",
+   "category": "Продукты/Супермаркет",
+   "merchant_id": "m1_V2a-lhSJ1ACXp6csnJYCyH_KF4qyV7LUwHYgZvQ",
+   "merchant": "Magnum",
+   "seen": 6,
+   "total": 6,
+   "source": "history"
+  },
+  {
+   "match": "MOMYSHULY SHOP",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_fdQKvnNqNbvgHvWEd0073MAZH4wVz1jSm7bQO-MY",
+   "merchant": "Kulikov",
+   "seen": 2,
+   "total": 2,
+   "source": "history"
+  },
+  {
+   "match": "Mamma Mia",
+   "category_id": "b94401f1-4cb8-4269-9ef9-473b72f41215",
+   "category": "Кафе и рестораны/Кофе",
+   "merchant_id": "m1_gX7FeClRbY9B-RKwkhUL9sw_7ACgcKSQsa9HBS714mg",
+   "merchant": "Mamma mia",
+   "seen": 5,
+   "total": 5,
+   "source": "history"
+  },
+  {
+   "match": "NAVAT CHAIKHANA",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_QgW2Qk8Em0q82iaJ4KoZL9cWAD_vb9hcGq-v_eClbndz4NoyIM0",
+   "merchant": "Navat Chaikhana",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "OPENAI CHATGPT SUBSCR",
+   "category_id": "e1b05be4-932c-48a9-aa0b-ad33536d885b",
+   "category": "Платежи, комиссии, налоги/Подписки",
+   "merchant_id": "m1_rTT3SSsklyJmqXp3bca7bLKXfWfuiRIY3eKUsVc",
+   "merchant": "OpenAI",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "PINDUODUO HONG KONG",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_0O_b3aBfortCiCryk2yHgACCDR1oqZGoSkWUGq9Zo_Y",
+   "merchant": "Pinduoduo",
+   "seen": 21,
+   "total": 21,
+   "source": "history"
+  },
+  {
+   "match": "PSMASTERALMATY BOSTANDYKSKIY",
+   "category_id": "12819c40-c634-4c49-9f2c-60893233cc11",
+   "category": "Отдых и развлечения/Playstation",
+   "merchant_id": "m1_DU4ggySyjNBJFoQ6X2LDHlYy-RMCI0tpa0C9yqFxfne06EoltA",
+   "merchant": "Psmasteralmaty",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "SINOOIL",
+   "category_id": "a6d335a4-d12b-473d-910f-912474297c6e",
+   "category": "Машина/Аксессуары ",
+   "merchant_id": "m1_oic0613kSDk9EUpu1hspwbQQ5cLRESxqdAaduCQ",
+   "merchant": "Sinoil",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "STARBUCKS COFFEE SHOP",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_almnEbtgBhf0wIeCoKZNz8bxvug",
+   "merchant": "Starbucks",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"A-DONER\"",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_DyFjhgz5akPp44myZ_lbyPpyZlibQKdDk-oF86if7m--39MFgw",
+   "merchant": "Doner na abaya",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"ARENA S\" ARENA S",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_o1PyFccnkzuGoaFBd9u550_3x-zeoKRGdQLXrTsR",
+   "merchant": "Arena S",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"BEST PRAYS KAZAHSTAN",
+   "category_id": "1495e2c7-6817-440a-a05c-8c2745ff1e7c",
+   "category": "Продукты/Супермаркет",
+   "merchant_id": "m1_eqe8Y3l--1clsgcTRbn91z6TpEJUqNOiauMLdu0maMg",
+   "merchant": "Fix price",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"BEST PRAYS KAZAHSTAN OTEGEN",
+   "category_id": "1495e2c7-6817-440a-a05c-8c2745ff1e7c",
+   "category": "Продукты/Супермаркет",
+   "merchant_id": "m1_eqe8Y3l--1clsgcTRbn91z6TpEJUqNOiauMLdu0maMg",
+   "merchant": "Fix price",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"CENTR KREPEZHNYH SIS",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_EdF8mMmmb4bb5kOmYIgg2v2qO8NuK_gflHL63HF8VmCexkPQ6p4wvl9eGWPjGw9RNj-jWSRd7g",
+   "merchant": "Too “Центр Крепежа”",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"DRAGON TRAVELS THE W",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_4aOysyq5M4RTRxEeoI0OOlRgMiRlkT8mHRMerA",
+   "merchant": "Mixue",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"FALCON LOGISTIC\"",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_m0LMo-oqZUhIE7fmKxjP9hmFjJI_ktD6r0mOSgxhNsHinUDF5mwHyhrR1pob",
+   "merchant": "Too “Falcon Logistic”",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"KIWANO PHARM\"",
+   "category_id": "a0ce6c07-7167-47bc-9c33-cefd707131a6",
+   "category": "Здоровье и фитнес/Лекарства",
+   "merchant_id": "m1_3J44OZctrwXD1zKUOPRlSdwpaVnBprdcMKV23onOZOQimmdaI1wH",
+   "merchant": "Too \"kiwano Pharm\"",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"QAZPROTEIN\" ALMA-",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_QrYxgDCRaMXHcqC7LeY_2Ecj4waampOz_fybnH_HtXdHC94MPy5tGw",
+   "merchant": "Too “Qazprotein”",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"SNOW KING KAZAKHSTA",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_4aOysyq5M4RTRxEeoI0OOlRgMiRlkT8mHRMerA",
+   "merchant": "Mixue",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"THE CASPIAN INTERNA",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_ltSNG4F8MsGjo4WdfnV4UjpkMsleMk-Aaug",
+   "merchant": "KFC",
+   "seen": 2,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "TOO \"XRAN GROUP\"",
+   "category_id": "b50741b3-09a6-4cd8-81f8-007a1f6e9c80",
+   "category": "Кафе и рестораны",
+   "merchant_id": "m1_4aOysyq5M4RTRxEeoI0OOlRgMiRlkT8mHRMerA",
+   "merchant": "Mixue",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "TUMAR G",
+   "category_id": "64a14917-37ba-462f-8452-2ca38d825789",
+   "category": "Продукты",
+   "merchant_id": "m1_Luhy5VzETo6qeLKspRovgsxMNMfPvAwAaji3dA",
+   "merchant": "Tumar",
+   "seen": 10,
+   "total": 10,
+   "source": "history"
+  },
+  {
+   "match": "WILDBERRIES",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_7rCqFFjpwc523JHDb7rsqgYJo7dT3LO91XGt4pYu-hJ2Zw",
+   "merchant": "Wildberries",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "YURTA DOM. Квитанции",
+   "category_id": "dbed2822-771d-426a-b9bc-c460a220eae8",
+   "category": "Платежи, комиссии, налоги/Коммунальные услуги",
+   "merchant_id": "m1_Hza86sU62fpAgvrTvOhAQjJAPC0Fxv7A5H-0Rpd00Aw",
+   "merchant": "YURTA DOM",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "beeline kz",
+   "category_id": "b020fa3b-b855-4b40-bec3-306e2c712fea",
+   "category": "Платежи, комиссии, налоги/Beeline интернет",
+   "merchant_id": "m1_2moqcqwe8qGZqpFuTrbRVIg2rQQb4A1tLjXcOAofMbJYWDhJ4pu6puFPE9FjgGs",
+   "merchant": "Beeline домашний",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "АЛСЕКО - квитанции за квартиру",
+   "category_id": "dbed2822-771d-426a-b9bc-c460a220eae8",
+   "category": "Платежи, комиссии, налоги/Коммунальные услуги",
+   "merchant_id": "m1_Qft7I1OMrZgpE58U4uaMfmDYaqOOemQ9snlP2DN7WKLZsDo",
+   "merchant": "АЛСЕКО",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "Аппарат самообслуживания",
+   "category_id": "52bc1e1b-c8b9-4460-862d-49a1b6d0483e",
+   "category": "Машина/Мойка",
+   "merchant_id": "m1_8tjd7jdmKhhN4_A5LHQ-4qn_KVhW9y5pRnp3fJf5h-Ss6X8ASvKMN3Gr-LdE9Cy6_NcF2I_WKKhx2wkjAWFFQrc3",
+   "merchant": "Мойка самообслуживания",
+   "seen": 4,
+   "total": 7,
+   "source": "history"
+  },
+  {
+   "match": "БАКАД. Оплата проезда",
+   "category_id": "af40ef63-ee6b-44cd-bd82-56f1fb7c38c0",
+   "category": "Машина/Платные дороги",
+   "merchant_id": "m1_rJgTuDzqMqG-stb23_Ign84sDMlbGGw6aQwqPC6dKoLC",
+   "merchant": "БАКАД",
+   "seen": 10,
+   "total": 10,
+   "source": "history"
+  },
+  {
+   "match": "Возврат. Отмена покупки GOLDAPPLE",
+   "category_id": "a2a89fa7-ac19-46e6-a9c9-5dd44561da22",
+   "category": "Забота о себе/Косметика",
+   "merchant_id": "m1_0aBmwDxLYn_6UMluOu4Zy54NfEsWk8f29oxJUTLfhFQYhj0",
+   "merchant": "GOLDAPPLE.KZ",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "ИП \"СУНЛАИРОВА З.А.\"",
+   "category_id": "9e6bf565-7c5d-4614-81cf-997661e0b4fa",
+   "category": "Покупки: одежда, техника/Online shop",
+   "merchant_id": "m1_4rYQpN2xexhwxr6csvPL8WDSXY6klVvOqg1pMocTblo9oQ",
+   "merchant": "Sun Express",
+   "seen": 4,
+   "total": 4,
+   "source": "history"
+  },
+  {
+   "match": "Комиссия за перевод на карту др. банка",
+   "category_id": "e5df3f81-a1eb-457f-957e-d7c0a8d2bcf2",
+   "category": "Платежи, комиссии, налоги/Комиссии банка",
+   "merchant_id": "m1__-ymgf9UajWRStorNLrmZBmfQPcMV6WJ8MK_9Sk8I4ip",
+   "merchant": "Kaspi Bank",
+   "seen": 3,
+   "total": 3,
+   "source": "history"
+  },
+  {
+   "match": "Налог для физ. лиц по реквизитам",
+   "category_id": "10598e82-93b7-4889-80ed-14bf66ad3926",
+   "category": "Платежи, комиссии, налоги/Налоги",
+   "merchant_id": "m1_PuDNYqtm65EuTCmj3jw6j2FbUtaQzoYivhwtDYHO7-T4qg",
+   "merchant": "КГД РК",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  },
+  {
+   "match": "Оплата госпошлин",
+   "category_id": "10598e82-93b7-4889-80ed-14bf66ad3926",
+   "category": "Платежи, комиссии, налоги/Налоги",
+   "merchant_id": "m1_PuDNYqtm65EuTCmj3jw6j2FbUtaQzoYivhwtDYHO7-T4qg",
+   "merchant": "КГД РК",
+   "seen": 1,
+   "total": 1,
+   "source": "history"
+  }
+ ]
+}
