@@ -1,0 +1,17 @@
+#!/bin/sh
+# Страховка: не даём закоммитить исходные документы и очевидные секреты,
+# даже если их добавили через `git add -f`.
+bad=$(git diff --cached --name-only --diff-filter=AM | grep -iE '\.(pdf|xlsx?|csv|ofx|qif)$|/inbox/[^.]|\.env($|\.)' | grep -v '\.env\.example$')
+if [ -n "$bad" ]; then
+  echo "pre-commit: запрещено коммитить выписки/выгрузки/секреты:" >&2
+  echo "$bad" >&2
+  exit 1
+fi
+
+# Номера карт (16 цифр) и ИИН (12 цифр) в добавленных строках
+leak=$(git diff --cached -U0 --diff-filter=AM | grep '^+' | grep -v '^+++' | grep -nE '\b[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}[ -]?[0-9]{4}\b|\b[0-9]{12}\b')
+if [ -n "$leak" ]; then
+  echo "pre-commit: похоже на номер карты или ИИН — замаскируй (например *1234):" >&2
+  echo "$leak" | head -5 >&2
+  exit 1
+fi

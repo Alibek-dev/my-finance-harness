@@ -1,0 +1,158 @@
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "SKHY", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "WMT", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "ORCL", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "DBB", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "PSIX", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "rec", "ticker": "VTWO", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "opened", "ticker": "FRHC"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "opened", "ticker": "IBIT"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "closed", "ticker": "MRVL"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "closed", "ticker": "NEM"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "closed", "ticker": "PD"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "FRHC", "side": "Buy", "qty": 2.0, "price": 178.75, "date": "2026-10-15", "sl": null, "tp": 200.0}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "IBIT", "side": "Buy", "qty": 6.0, "price": 46.8, "date": "2026-10-09", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "MRVL", "side": "Sell", "qty": 2.0, "price": 300.46, "date": "2026-10-06", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "WMT", "side": "Buy", "qty": 2.0, "price": 118.86, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "PSIX", "side": "Buy", "qty": 2.0, "price": 49.23, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "NEM", "side": "Sell", "qty": 3.0, "price": 112.54, "date": "2026-10-07", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "VTWO", "side": "Buy", "qty": 1.0, "price": 110.23, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Светлое будущее", "kind": "trade", "ticker": "PD", "side": "Sell", "qty": 5.0, "price": 16.39, "date": "2026-10-12", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "IGR", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "EMD", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "IWMI", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "rec", "ticker": "TRIN", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGD", "side": "Buy", "qty": 12.0, "price": 11.75, "date": "2026-09-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AOD", "side": "Buy", "qty": 16.0, "price": 10.58, "date": "2026-07-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AOD", "side": "Buy", "qty": 13.0, "price": 10.74, "date": "2026-08-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASGI", "side": "Buy", "qty": 5.0, "price": 23.05, "date": "2026-03-12", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASGI", "side": "Buy", "qty": 6.0, "price": 24.3, "date": "2026-04-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASGI", "side": "Buy", "qty": 4.0, "price": 23.75, "date": "2026-05-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASGI", "side": "Buy", "qty": 2.0, "price": 23.35, "date": "2026-06-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IGR", "side": "Buy", "qty": 11.0, "price": 14.82, "date": "2026-02-12", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IGR", "side": "Buy", "qty": 7.33, "price": 14.25, "date": "2026-05-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IGR", "side": "Buy", "qty": 6.67, "price": 14.01, "date": "2026-06-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IGR", "side": "Buy", "qty": 13.0, "price": 11.16, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "EMD", "side": "Buy", "qty": 28.0, "price": 10.7, "date": "2025-12-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "EMD", "side": "Buy", "qty": 13.0, "price": 10.77, "date": "2026-01-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "GPIQ", "side": "Buy", "qty": 3.0, "price": 52.02, "date": "2025-11-25", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "GPIQ", "side": "Buy", "qty": 2.0, "price": 53.08, "date": "2026-01-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "GPIQ", "side": "Buy", "qty": 2.0, "price": 51.97, "date": "2026-02-26", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "GPIQ", "side": "Buy", "qty": 1.0, "price": 57.08, "date": "2026-08-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IVR", "side": "Buy", "qty": 13.0, "price": 7.44, "date": "2025-09-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGNC", "side": "Buy", "qty": 10.0, "price": 9.69, "date": "2025-07-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGNC", "side": "Buy", "qty": 11.0, "price": 9.8, "date": "2025-08-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGNC", "side": "Buy", "qty": 12.0, "price": 10.19, "date": "2025-10-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGNC", "side": "Buy", "qty": 6.0, "price": 10.48, "date": "2026-05-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "AGNC", "side": "Buy", "qty": 5.0, "price": 10.92, "date": "2026-08-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IWMI", "side": "Buy", "qty": 2.0, "price": 46.73, "date": "2025-07-17", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IWMI", "side": "Buy", "qty": 3.0, "price": 47.03, "date": "2025-08-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "IWMI", "side": "Buy", "qty": 3.0, "price": 49.77, "date": "2025-12-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OBDC", "side": "Buy", "qty": 7.0, "price": 14.7, "date": "2025-06-26", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OBDC", "side": "Buy", "qty": 9.0, "price": 14.34, "date": "2025-08-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OBDC", "side": "Buy", "qty": 8.0, "price": 12.79, "date": "2025-12-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "DSL", "side": "Buy", "qty": 15.0, "price": 11.3, "date": "2025-04-10", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "DSL", "side": "Buy", "qty": 14.0, "price": 12.52, "date": "2025-09-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BDJ", "side": "Buy", "qty": 20.0, "price": 7.9, "date": "2025-04-10", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BDJ", "side": "Buy", "qty": 14.0, "price": 9.09, "date": "2025-11-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PAGP", "side": "Buy", "qty": 6.0, "price": 16.3, "date": "2024-01-18", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PAGP", "side": "Sell", "qty": 6.0, "price": 19.79, "date": "2025-04-04", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MFA", "side": "Buy", "qty": 10.0, "price": 10.83, "date": "2025-03-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MFA", "side": "Buy", "qty": 12.0, "price": 9.78, "date": "2026-03-26", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "THQ", "side": "Buy", "qty": 5.0, "price": 20.39, "date": "2025-03-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "THQ", "side": "Buy", "qty": 5.0, "price": 17.71, "date": "2025-05-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "THQ", "side": "Buy", "qty": 7.0, "price": 17.71, "date": "2025-10-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "THQ", "side": "Buy", "qty": 4.0, "price": 19.81, "date": "2026-01-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VTS", "side": "Buy", "qty": 4.0, "price": 24.2, "date": "2025-03-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VTS", "side": "Buy", "qty": 4.0, "price": 24.46, "date": "2025-06-12", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SDIV", "side": "Buy", "qty": 5.0, "price": 21.28, "date": "2025-01-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SDIV", "side": "Buy", "qty": 5.0, "price": 21.25, "date": "2025-02-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SDIV", "side": "Buy", "qty": 4.0, "price": 21.54, "date": "2025-05-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SDIV", "side": "Buy", "qty": 2.0, "price": 25.13, "date": "2026-05-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "JEPQ", "side": "Buy", "qty": 2.0, "price": 57.43, "date": "2024-12-05", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "JEPQ", "side": "Buy", "qty": 3.0, "price": 52.68, "date": "2025-05-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "JEPQ", "side": "Buy", "qty": 1.0, "price": 61.33, "date": "2026-06-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "JEPQ", "side": "Buy", "qty": 2.0, "price": 57.51, "date": "2026-07-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PTY", "side": "Buy", "qty": 7.0, "price": 14.47, "date": "2024-10-31", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PTY", "side": "Buy", "qty": 6.0, "price": 14.7, "date": "2025-02-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KBWD", "side": "Buy", "qty": 7.0, "price": 15.32, "date": "2024-10-17", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KBWD", "side": "Buy", "qty": 7.0, "price": 14.82, "date": "2025-01-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PMT", "side": "Buy", "qty": 5.0, "price": 14.13, "date": "2024-10-03", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PMT", "side": "Buy", "qty": 7.0, "price": 14.73, "date": "2025-03-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "PMT", "side": "Buy", "qty": 13.0, "price": 12.64, "date": "2025-04-10", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SAR", "side": "Buy", "qty": 4.0, "price": 23.37, "date": "2024-08-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SAR", "side": "Buy", "qty": 6.0, "price": 24.0, "date": "2025-04-25", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SAR", "side": "Buy", "qty": 5.0, "price": 23.22, "date": "2026-04-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASC", "side": "Buy", "qty": 5.0, "price": 19.87, "date": "2024-08-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ASC", "side": "Sell", "qty": 5.0, "price": 20.0, "date": "2026-05-11", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Buy", "qty": 1.0, "price": 65.0, "date": "2024-07-18", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Buy", "qty": 2.0, "price": 62.96, "date": "2024-10-03", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Buy", "qty": 1.0, "price": 62.25, "date": "2024-11-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Buy", "qty": 1.0, "price": 68.5, "date": "2025-02-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Buy", "qty": 3.0, "price": 62.5, "date": "2025-04-10", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "SBR", "side": "Sell", "qty": 8.0, "price": 74.72, "date": "2025-12-05", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TRIN", "side": "Buy", "qty": 5.0, "price": 14.63, "date": "2024-06-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TRIN", "side": "Buy", "qty": 7.0, "price": 14.45, "date": "2024-12-17", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TRIN", "side": "Buy", "qty": 7.0, "price": 14.78, "date": "2024-12-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TRIN", "side": "Buy", "qty": 2.0, "price": 17.03, "date": "2026-05-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BXSL", "side": "Buy", "qty": 3.0, "price": 31.72, "date": "2024-06-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BXSL", "side": "Buy", "qty": 3.0, "price": 30.43, "date": "2024-09-19", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BXSL", "side": "Buy", "qty": 4.0, "price": 24.62, "date": "2026-09-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "CSWC", "side": "Buy", "qty": 4.0, "price": 26.16, "date": "2024-06-13", "sl": null, "tp": 27.0}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "CSWC", "side": "Buy", "qty": 1.0, "price": 23.78, "date": "2026-06-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "CPA", "side": "Buy", "qty": 1.0, "price": 99.3, "date": "2024-05-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "CPA", "side": "Sell", "qty": 1.0, "price": 103.91, "date": "2025-05-20", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "EPM", "side": "Buy", "qty": 15.0, "price": 5.67, "date": "2024-05-30", "sl": null, "tp": 5.8}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "DLX", "side": "Buy", "qty": 4.0, "price": 23.35, "date": "2024-05-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "DLX", "side": "Sell", "qty": 4.0, "price": 23.9, "date": "2026-01-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ENB", "side": "Buy", "qty": 3.0, "price": 36.03, "date": "2024-05-02", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "ENB", "side": "Sell", "qty": 3.0, "price": 41.55, "date": "2025-04-07", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "REPX", "side": "Buy", "qty": 3.0, "price": 28.5, "date": "2024-04-18", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "REPX", "side": "Sell", "qty": 3.0, "price": 29.3, "date": "2025-03-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "HESM", "side": "Buy", "qty": 3.0, "price": 34.34, "date": "2024-02-01", "sl": null, "tp": 44.0}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BMY", "side": "Buy", "qty": 2.0, "price": 51.12, "date": "2023-12-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "BMY", "side": "Sell", "qty": 2.0, "price": 60.57, "date": "2025-03-13", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VZ", "side": "Buy", "qty": 2.0, "price": 37.55, "date": "2023-12-28", "sl": null, "tp": 54.0}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VZ", "side": "Buy", "qty": 2.0, "price": 41.87, "date": "2024-03-28", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "WU", "side": "Buy", "qty": 8.0, "price": 12.28, "date": "2023-12-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "WU", "side": "Buy", "qty": 7.0, "price": 13.4, "date": "2024-02-29", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "WU", "side": "Buy", "qty": 31.0, "price": 9.68, "date": "2025-12-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KSS", "side": "Buy", "qty": 4.0, "price": 23.6, "date": "2023-11-30", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KSS", "side": "Sell", "qty": 4.0, "price": 19.9, "date": "2025-11-25", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VOD", "side": "Buy", "qty": 8.0, "price": 9.2, "date": "2023-11-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VOD", "side": "Sell", "qty": 8.0, "price": 8.78, "date": "2024-06-27", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VCSH", "side": "Buy", "qty": 1.0, "price": 74.89, "date": "2023-10-26", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "VCSH", "side": "Sell", "qty": 1.0, "price": 79.55, "date": "2025-08-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TMF", "side": "Buy", "qty": 5.0, "price": 4.9, "date": "2023-11-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TMF", "side": "Sell", "qty": 10.0, "price": 5.49, "date": "2023-12-04", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "TMF", "side": "Buy", "qty": 1.0, "price": 54.88, "date": "2023-12-04", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "RA", "side": "Buy", "qty": 2.0, "price": 16.73, "date": "2023-08-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OMF", "side": "Buy", "qty": 2.0, "price": 35.68, "date": "2023-10-26", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OMF", "side": "Buy", "qty": 2.0, "price": 47.17, "date": "2024-02-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "OMF", "side": "Buy", "qty": 2.0, "price": 49.71, "date": "2024-08-01", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MVO", "side": "Buy", "qty": 7.0, "price": 13.41, "date": "2023-10-12", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MVO", "side": "Sell", "qty": 7.0, "price": 1.57, "date": "2026-06-16", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MO", "side": "Buy", "qty": 2.0, "price": 44.57, "date": "2023-08-31", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MO", "side": "Buy", "qty": 2.0, "price": 43.818, "date": "2024-03-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "MO", "side": "Sell", "qty": 4.0, "price": 55.91, "date": "2025-04-02", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KMI", "side": "Buy", "qty": 5.0, "price": 17.25, "date": "2023-09-14", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KMI", "side": "Sell", "qty": 5.0, "price": 25.41, "date": "2025-04-04", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KEY", "side": "Buy", "qty": 3.0, "price": 10.64, "date": "2023-08-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Пассивный доход", "kind": "trade", "ticker": "KEY", "side": "Sell", "qty": 3.0, "price": 18.47, "date": "2025-09-18", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "EWY", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "MU", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "MOO", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "NVDA", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "rec", "ticker": "IBB", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "XLV", "side": "Buy", "qty": 1.0, "price": 178.77, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "MOO", "side": "Buy", "qty": 1.0, "price": 82.37, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Состоятельный инвестор", "kind": "trade", "ticker": "VTV", "side": "Buy", "qty": 1.0, "price": 222.86, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "DRIV", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "JETS", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "IBB", "old": "ДЕРЖАТЬ", "new": "НАКАПЛИВАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "rec", "ticker": "UFO", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "opened", "ticker": "PHO"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "trade", "ticker": "PHO", "side": "Buy", "qty": 1.0, "price": 70.12, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Для моего ребёнка", "kind": "trade", "ticker": "HERO", "side": "Buy", "qty": 1.0, "price": 27.73, "date": "2026-10-15", "sl": null, "tp": null}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "rec", "ticker": "NVDA", "old": "НАКАПЛИВАТЬ", "new": "ДЕРЖАТЬ"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "opened", "ticker": "KO"}
+{"ts": "2026-10-16T22:22:45", "portfolio": "Исламский", "kind": "trade", "ticker": "KO", "side": "Buy", "qty": 1.0, "price": 92.49, "date": "2026-10-15", "sl": null, "tp": null}
