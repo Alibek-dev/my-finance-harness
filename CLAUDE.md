@@ -7,7 +7,7 @@
 
 | Папка | Назначение |
 |---|---|
-| `freedom-broker/` | Брокерский счёт Freedom Broker: портфель, правила, наставники (скиллы `fb-portfolio`, `fb-invest`, только чтение) |
+| `freedom-broker/` | Брокерский счёт Freedom Broker: портфель, правила, наставники, консультант (скиллы `fb-portfolio`, `fb-invest`, `fb-advisor`, только чтение) |
 | `zen-money-accounting/` | Учёт повседневных доходов/расходов: разбор банковских выписок → операции в Дзен-мани через коннектор |
 
 У каждого проекта свой `CLAUDE.md` — читай его перед работой в проекте.
@@ -21,6 +21,8 @@ ln -sfn "$PWD/<проект>/skills/<скилл>" ~/.claude/skills/<скилл>
 ```
 
 Префиксы: `fb-*` — freedom-broker, `zm-*` — zen-money-accounting.
+Сторонние скиллы — в `<проект>/skills/vendor/<автор>/<скилл>/` с `VENDOR.md` (источник, коммит, лицензия, локальные правки),
+симлинк под исходным именем.
 
 ## Жёсткие правила
 
@@ -49,7 +51,7 @@ ln -sfn "$PWD/<проект>/skills/<скилл>" ~/.claude/skills/<скилл>
 | `data` | результат работы скиллов: журналы `journal/`, выученные `rules/`, отчёты `reports/` |
 
 Scope — проект или скилл: `hub` (корень), `fb` (freedom-broker), `zm` (zen-money-accounting), либо имя скилла —
-`fb-portfolio`, `fb-invest`, `zm-import`, `zm-freedom-rate`; `hooks` для `.githooks`. Например:
+`fb-portfolio`, `fb-invest`, `fb-advisor`, `zm-import`, `zm-freedom-rate`; `hooks` для `.githooks`. Например:
 `data(zm): импорт kaspi и freedom за 02.10–02.11`.
 
 **Без AI-атрибуции:** никаких `Co-Authored-By: Claude …` и «Generated with Claude Code» — ни в коммитах, ни в PR.
