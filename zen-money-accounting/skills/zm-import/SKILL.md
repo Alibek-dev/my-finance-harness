@@ -48,7 +48,8 @@ description: Импорт банковской PDF-выписки (Kaspi Gold, F
    Переводы людям, пополнения от людей, расхождения сумм с уже внесённым — не трогать, спросить.
    Ограничения из `rules/merchants.json → constraints` проверять и для уже внесённых записей.
 8. **Запись:** собрать payload в scratch (`requestId` = новый uuid4; для импорта — `originalPayee` + `merchantId`
-   из истории; валюта — `amount` в KZT по курсу банка того же дня из сматченных fx-пар + `originalAmount/Instrument`),
+   из истории; валюта — `amount` в KZT по курсу из `skills/zm-freedom-rate` (`get <дата> --side sell|buy --amount X`),
+   если в тот же день нет сматченных fx-пар с реальным курсом + `originalAmount/Instrument`),
    затем `claude -p "Вызови mcp__zenmoney__upsert_transactions ровно один раз с этими аргументами, дословно: <json>"
    --allowedTools "mcp__zenmoney__upsert_transactions" --output-format stream-json --verbose`.
    В потоке сравнить `tool_use.input` с payload (должны совпасть) и взять `id` из `results`. Пачки ≤ 200.
